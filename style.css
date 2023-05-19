@@ -1,197 +1,213 @@
-/*Body */
-body {
-    background-color: #1D1C1E;
-    font-family: 'Inika';
-    color: #767676;
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-/* Menu */
-#menu {
-    display: flex;
-    width: 100%;
-    height: 50px;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    /*Body */
+    body {
+        background-color: #1D1C1E;
+        font-family: 'Inika';
+        color: #767676;
+    }
 
-#navigation {
-    width: 1000px;
-}
+    /* Menu */
+    #menu {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
-#navigation nav {
-    display: flex;
-    width: 200px;
-    justify-content: space-evenly;
-}
+    #navigation {
+        width: 1000px;
+    }
 
-#navigation nav a {
-    display: flex;
-    text-decoration: none;
-    color: #767676;
-    text-align: center;
-}
+    #navigation nav {
+        display: flex;
+        width: 200px;
+        justify-content: space-evenly;
+    }
 
-#social {
-    width: 300px;
-    align-items: center;
-}
+    #navigation nav a {
+        display: flex;
+        text-decoration: none;
+        color: #767676;
+        text-align: center;
+    }
 
-#social nav{
-    display: flex;
-    justify-content: space-evenly;
+    #social {
+        width: 300px;
+        align-items: center;
+    }
 
-}
+    #social nav{
+        display: flex;
+        justify-content: space-evenly;
 
-#social .icon {
-    width: 28px ;
-    margin: 2px;
-}
+    }
 
-/*Line */
+    #social .icon {
+        width: 28px ;
+        margin: 2px;
+    }
 
-#linediv{
-    justify-content: center;
-    display: flex
-}
+    /*Line */
 
-#line {
-    background-color: #767676;
-    height: 3px;
-    width: 92%;
-}
+    #linediv{
+        justify-content: center;
+        display: flex
+    }
 
-/* Me */
-#me {
-    margin-top: 80px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+    #line {
+        background-color: #767676;
+        height: 3px;
+        width: 92%;
+    }
 
-#me img {
-    width: 200px;
-    border-radius: 100%;
-}
+    /* Me */
+    #me {
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
-#me h1 {
-    font-size: 22px;
-    margin-top: 20px;
-}
+    #me img {
+        width: 200px;
+        border-radius: 100%;
+    }
 
-#me h2 {
-    font-size: 27px;
-    margin-top: 10px;
-}
+    #me h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
 
-/* Content */
-#content {
-    justify-content: center;
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 100px;
-}
+    #me h2 {
+        font-size: 27px;
+        margin-top: 10px;
+    }
 
-#contentgroup {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-}
+    /* Content */
+    #content {
+        justify-content: center;
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
 
-.contentblock {
-    height: 200px;
-    width: 157px;
-    background-color: #333232;
-    margin: 2px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+    #contentgroup {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-#contentgroup a {
-    text-decoration: none;
-    color: #767676;
-    text-align: center;
-    font-size: 70px;
-}
+    .contentblock {
+        height: 200px;
+        width: 157px;
+        background-color: #333232;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contentblock a {
+        display: inline-block;
+        text-decoration: none;
+        color: #767676;
+        font-size: 70px;
+    }
+    
+    #contentgroup a {
+        text-decoration: none;
+        color: #767676;
+        text-align: center;
+        font-size: 70px;
+    }
 
-.anchor {
-    height: 1px;
-    width: 1px;
-}
-/* About me */
-#aboutme {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
+    .anchor {
+        height: 1px;
+        width: 1px;
+    }
+    /* About me */
+    #aboutme {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
 
-#aboutmeblock {
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
-    width: 80%;
-}
+    #aboutmeblock {
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        width: 80%;
+    }
 
-#aboutme img {
-    width: 600px;
-}
+    #aboutme img {
+        width: 600px;
+    }
 
-#aboutmetext {
-    margin: 50px;
-    text-align: justify;
-}
+    #aboutmetext {
+        margin: 50px;
+        text-align: justify;
+    }
 
-#aboutmetext p {
-    font-size: 16px;
-}
+    #aboutmetext p {
+        font-size: 16px;
+    }
 
-/* Projects */
-.project {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
+    /* Projects */
+    .project {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
 
-#projectblock {
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
-    width: 80%;
-}
+    #projectblock {
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        width: 80%;
+    }
 
-.project img {
-    width: 600px;
-}
+    .project img {
+        width: 600px;
+    }
 
-.projecttext {
-    margin: 50px;
-    text-align: justify;
-}
+    .projecttext {
+        margin: 50px;
+        text-align: justify;
+    }
 
-.projecttext p {
-    font-size: 16px;
-}
+    .projecttext p {
+        font-size: 16px;
+    }
 
-/* Up Button */
-#upbutton {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    background-color: #767676;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    /* Your CSS styles here */
+
+    #scrollTopButton {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-}
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #767676;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+    }
 
-#upbutton img {
-    width: 30px;
-}
+    #scrollTopButton.hidden {
+    visibility: hidden;
+    }
+
