@@ -12,7 +12,7 @@ navLinks.forEach((link) => {
   });
 });
 
-// Check scroll position and show/hide the scroll-to-top button
+// Check scroll position and show/hide both the scroll-bar and the scroll-to-top button
 window.onscroll = function() {
   scrollFunction();
 };
@@ -26,6 +26,17 @@ function scrollFunction() {
   }
 }
 
+window.addEventListener('scroll', function() {
+  var body = document.body;
+
+  if (body.scrollTop === 0) {
+    body.classList.add('hide-scrollbar');
+  } else {
+    body.classList.remove('hide-scrollbar');
+  }
+});
+
+
 // Smoothly scroll to the top of the page when the button is clicked
 function scrollToTop() {
   window.scrollTo({
@@ -34,6 +45,7 @@ function scrollToTop() {
   });
 }
 
+// Typewriter effect
 var text = "Full-Stack Developer"; // Text to be typed
 var speed = 100; // Typing speed (in milliseconds)
 var i = 0;
