@@ -1,0 +1,237 @@
+/* General styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #1D1C1E;
+    font-family: 'Inika';
+    color: #767676;
+  }
+  
+  /* Menu */
+  #menu {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #navigation {
+    width: 1000px;
+  }
+  
+  #navigation nav {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+  }
+  
+  #navigation nav a {
+    display: flex;
+    text-decoration: none;
+    color: #767676;
+    text-align: center;
+  }
+  
+  #social {
+    width: 300px;
+    align-items: center;
+  }
+  
+  #social #nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #social .icon {
+    width: 23px;
+    margin: 2px;
+  }
+  
+  /* Line */
+  #linediv {
+    justify-content: center;
+    display: flex;
+  }
+  
+  #line {
+    background-color: #767676;
+    height: 3px;
+    width: 92%;
+  }
+  
+  /* Me */
+  #me {
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #me img {
+    width: 190px;
+    border-radius: 100%;
+  }
+  
+  #me h1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
+  #me h2 {
+    font-size: 27px;
+    margin-top: 10px;
+  }
+  
+  /* Content */
+  #content {
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  
+  #contentgroup {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .contentblock {
+    height: 193px;
+    width: 142px;
+    background-color: #333232;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contentblock a {
+    display: inline-block;
+    text-decoration: none;
+    color: #767676;
+    font-size: 70px;
+  }
+  
+  #contentgroup a {
+    text-decoration: none;
+    color: #767676;
+    text-align: center;
+    font-size: 70px;
+  }
+  
+  .anchor {
+    height: 1px;
+    width: 1px;
+  }
+  
+  /* About me */
+  #aboutme {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  #aboutmeblock {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 80%;
+  }
+  
+  #aboutme img {
+    width: 600px;
+  }
+  
+  #aboutmetext {
+    margin: 50px;
+    text-align: justify;
+  }
+  
+  #aboutmetext p {
+    font-size: 16px;
+  }
+  
+  /* Projects */
+  .project {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  #projectblock {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 80%;
+  }
+  
+  .project img {
+    width: 600px;
+  }
+  
+  .projecttext {
+    margin: 50px;
+    text-align: justify;
+  }
+  
+  .projecttext p {
+    font-size: 16px;
+  }
+  
+  /* Scroll to top button */
+  #scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #767676;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  #scrollTopButton:hover {
+    opacity: 1;
+  }
+  
+  #scrollTopButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+
+/* Custom scrollbar style */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1D1C1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #767676;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
