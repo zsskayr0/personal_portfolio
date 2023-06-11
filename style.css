@@ -40,7 +40,7 @@ html {
     align-items: center;
   }
   
-  #social nav {
+  #social #nav {
     display: flex;
     justify-content: space-evenly;
   }
